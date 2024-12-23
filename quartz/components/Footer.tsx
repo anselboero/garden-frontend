@@ -20,6 +20,8 @@ export default ((opts?: Options) => {
           <a href="https://pages.github.com/">Github Pages</a>.
           <br />
           This website does not use 🍪.
+          <br />
+          No AI was used to generate any kind of content.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

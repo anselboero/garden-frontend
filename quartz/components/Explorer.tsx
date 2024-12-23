@@ -33,7 +33,8 @@ const defaultOptions = {
       return -1
     }
   },
-  filterFn: (node) => node.name !== "tags",
+  // Also filteering out people page
+  filterFn: (node) => node.name !== "tags" && node.name !== "people",
   order: ["filter", "map", "sort"],
 } satisfies Options
 
