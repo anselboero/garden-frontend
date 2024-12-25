@@ -24,6 +24,7 @@ tags:
 # Build - The Blocks
 
 - **terraform**: list the needed providers
+	- backend: where to store the state file. Local by default.
 - **provider**: initializes each provider
 - **resource**: List all the resources.
 	- Double entry name (uniqueness): resource name + personal identifier
@@ -36,6 +37,9 @@ terraform {
 	  source = "hashicorp/google"
 	  version = "6.14.1"
 	}
+  }
+  backend "gcs" {
+    bucket = "anselboero-website-dev-tfstate"
   }
 }
 
@@ -89,6 +93,9 @@ variable "zone" {
 	  - **Destructive**: The old resource will be destroyed first and a new one will be created (e.g. changing image to a VM)
 - `terraform destroy`: Delete all the resources.
 
+# Open Questions
+- I think it's not possible to save every single resource as a Tf object: For Example, how can you deploy the first resources without having initialized a Google Build Trigger via UI?
+- How to structure the project?
 # Resources
 - https://developer.hashicorp.com/terraform/tutorials/gcp-get-started (all the 7 Tutorials) (opened on 2024-12-23)
 - [Google Cloud Documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
