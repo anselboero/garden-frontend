@@ -2,14 +2,15 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
-import LastMovieWatched from "./LastMovieWatched"
+// @ts-ignore: typescript doesn't know about our inline bundling system
+// so we need to silence the error
+import script from "./scripts/footer.inline"
 
 interface Options {
   links: Record<string, string>,
 }
 
-export default ((opts?: Options, lastMovieWatchedComp?: QuartzComponent) => {
-  const LastMovieWatched: QuartzComponent = lastMovieWatchedComp ?? (() => null)
+export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps,
   ) => {
     const links = opts?.links ?? []
@@ -36,16 +37,14 @@ export default ((opts?: Options, lastMovieWatchedComp?: QuartzComponent) => {
               ))}
             </ul>
           </div>
-          <div>
-            <LastMovieWatched />
+          <div id="lastmoviewatched">
           </div>
-          
         </div>  
       </footer>
     )
   }
 
   Footer.css = style
-  Footer.afterDOMLoaded = LastMovieWatched.afterDOMLoaded
+  Footer.afterDOMLoaded = script
   return Footer
 }) satisfies QuartzComponentConstructor
