@@ -2,13 +2,16 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
+import LastMovieWatched from "./LastMovieWatched"
 
 interface Options {
-  links: Record<string, string>
+  links: Record<string, string>,
 }
 
-export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+export default ((opts?: Options, lastMovieWatchedComp?: QuartzComponent) => {
+  const LastMovieWatched: QuartzComponent = lastMovieWatchedComp ?? (() => null)
+  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps,
+  ) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
@@ -34,19 +37,15 @@ export default ((opts?: Options) => {
             </ul>
           </div>
           <div>
-              <p>Recently watched
-              <br />
-              <a href="https://www.imdb.com/title/tt14253846/?ref_=tt_mv_close">Speak No Evil</a>
-              </p>
-              <img 
-              src="https://m.media-amazon.com/images/M/MV5BOTJjMDMyMGYtZWU3ZS00OTVmLTg1ZWUtY2E4OGEyOGNmMjhiXkEyXkFqcGc@._V1_SX300.jpg"
-              width="40%"></img>
+            <LastMovieWatched />
           </div>
+          
         </div>  
       </footer>
     )
   }
 
   Footer.css = style
+  Footer.afterDOMLoaded = LastMovieWatched.afterDOMLoaded
   return Footer
 }) satisfies QuartzComponentConstructor

@@ -4,8 +4,13 @@ import script from "./scripts/lastmoviewatched.inline"
 
 export default (() => {
   const LastMovieWatched: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-    return <button id="btn">Click me</button>
+    return (
+    <div id="lastmoviewatched">
+    </div>
+    )
   }
+
+  LastMovieWatched.afterDOMLoaded = script
 
   return LastMovieWatched
 }) satisfies QuartzComponentConstructor

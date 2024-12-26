@@ -14,12 +14,14 @@ import TagList from "./TagList"
 import Graph from "./Graph"
 import Backlinks from "./Backlinks"
 import Search from "./Search"
+import LastMovieWatched from "./LastMovieWatched"
 import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+
 
 export {
   ArticleTitle,
@@ -37,6 +39,7 @@ export {
   Graph,
   Backlinks,
   Search,
+  LastMovieWatched,
   Footer,
   DesktopOnly,
   MobileOnly,
