@@ -10,7 +10,9 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/anselboero",
     },
-  }),
+  },
+  Component.LastMovieWatched(),
+  ),
 }
 
 // components for pages that display a single page (e.g. a single note)
