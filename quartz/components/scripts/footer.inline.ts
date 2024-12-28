@@ -9,8 +9,10 @@ function updateLastMovieWatched() {
             <p>
                 Recently watched
                 <br />
-                <a href="${data.imdb_link}">${data.title}</a>
+                <a href="${data.imdb_link}">${data.title}</a>: ${data.rating}
+                ${data.comment ? `<br /><i>${data.comment}</i>` : ''}
             </p>
+            
             <img 
             src="${data.poster_link}"
             width="40%"></img>

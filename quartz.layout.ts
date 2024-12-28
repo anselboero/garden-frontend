@@ -10,8 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/anselboero",
     },
-  },
-  Component.LastMovieWatched(),
+  }
   ),
 }
 
