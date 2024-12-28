@@ -26,4 +26,10 @@ function updateLastMovieWatched() {
     })
 }
 
-updateLastMovieWatched()
+// needed in order to keep the function live while navigating
+// the website.
+// reference: https://discord.com/channels/927628110009098281/1006391490962010152/threads/1322305204871368764
+document.addEventListener("nav", () => {
+
+    updateLastMovieWatched()
+})
