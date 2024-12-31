@@ -1,10 +1,9 @@
 function updateLastMovieWatched() {
-    fetch("https://europe-west10-anselboero-website-prod.cloudfunctions.net/get-last-movie-watched")
+    fetch("https://storage.googleapis.com/anselboero-website-prod-last-movie-watched/last_movie_watched.json")
     .then((response) => response.json())
     .then((data) => {
         const lastmoviewatched = document.getElementById("lastmoviewatched")
         if (!lastmoviewatched) return
-
         lastmoviewatched.innerHTML = `
             <p>
                 Recently watched
