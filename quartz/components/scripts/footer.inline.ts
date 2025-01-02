@@ -1,5 +1,26 @@
+function updateNetWorth() {
+    fetch("https://storage.googleapis.com/anselboero-website-prod-apis/net_worth.json")
+    .then((response) => response.json())
+    .then((data) => {
+        const networth = document.getElementById("networth")
+        if (!networth) return
+        networth.innerHTML = `
+            <p>
+                Live Net Worth: ${data.net_worth} €
+            </p>
+        `
+    })
+    .catch(() => {
+        const networth = document.getElementById("networth")
+        if (!networth) return
+
+        networth.innerHTML = ""
+    })
+}
+
+
 function updateLastMovieWatched() {
-    fetch("https://storage.googleapis.com/anselboero-website-prod-last-movie-watched/last_movie_watched.json")
+    fetch("https://storage.googleapis.com/anselboero-website-prod-apis/last_movie_watched.json")
     .then((response) => response.json())
     .then((data) => {
         const lastmoviewatched = document.getElementById("lastmoviewatched")
@@ -31,4 +52,5 @@ function updateLastMovieWatched() {
 document.addEventListener("nav", () => {
 
     updateLastMovieWatched()
+    updateNetWorth()
 })

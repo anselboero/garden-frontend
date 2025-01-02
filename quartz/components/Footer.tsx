@@ -26,9 +26,9 @@ export default ((opts?: Options) => {
               <a href="https://pages.github.com/">Github Pages</a>.
               <br />
               This website does not use 🍪.
-              <br />
-              No AI was used to generate any kind of content.
             </p>
+            <div id="networth">
+            </div>
             <ul>
               {Object.entries(links).map(([text, link]) => (
                 <li>
@@ -39,7 +39,7 @@ export default ((opts?: Options) => {
           </div>
           <div id="lastmoviewatched">
           </div>
-        </div>  
+        </div>
       </footer>
     )
   }
