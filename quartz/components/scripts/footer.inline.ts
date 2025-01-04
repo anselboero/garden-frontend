@@ -29,12 +29,12 @@ function updateLastMovieWatched() {
             <p>
                 Recently watched
                 <br />
-                <a href="${data.imdb_link}">${data.title}</a>: ${data.rating}
-                ${data.comment ? `<br /><i>${data.comment}</i>` : ''}
+                <a href="${data.last_movie_watched__imdb_link}">${data.last_movie_watched__title}</a>: ${data.last_movie_watched__rating}
+                ${data.last_movie_watched__comment ? `<br /><i>${data.last_movie_watched__comment}</i>` : ''}
             </p>
             
             <img 
-            src="${data.poster_link}"
+            src="${data.last_movie_watched__poster_link}"
             width="40%"></img>
         `
     })
