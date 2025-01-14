@@ -25,16 +25,28 @@ function updateLastMovieWatched() {
     .then((data) => {
         const lastmoviewatched = document.getElementById("lastmoviewatched")
         if (!lastmoviewatched) return
+        
+        const episodeInfo = data.last_watched__type === "episode" 
+            ? `<br />${data.last_watched__series_title} - S${data.last_watched__series_season_number.padStart(2, '0')}E${data.last_watched__series_episode_number.padStart(2, '0')}` 
+            : "";
+
+        const comment = data.last_watched__comment 
+            ? `<br /><i>${data.last_watched__comment}</i>` 
+            : "";
+
+        const output = `${episodeInfo}${comment}`;
+        
         lastmoviewatched.innerHTML = `
             <p>
                 Recently watched
                 <br />
-                <a href="${data.last_movie_watched__imdb_link}">${data.last_movie_watched__title}</a>: ${data.last_movie_watched__rating}
-                ${data.last_movie_watched__comment ? `<br /><i>${data.last_movie_watched__comment}</i>` : ''}
+                <a href="${data.last_watched__imdb_link}">${data.last_watched__title}</a>: ${data.last_watched__rating}
+                ${episodeInfo}
+                ${comment}
             </p>
             
             <img 
-            src="${data.last_movie_watched__poster_link}"
+            src="${data.last_watched__poster_link}"
             width="40%"></img>
         `
     })
