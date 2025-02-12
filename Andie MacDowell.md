@@ -6,6 +6,7 @@ tags:
 ---
 ## Movies
 
-| Movie | Year | Rating |
-| ----- | ---- | ------ |
+| Movie                                        | Year | Rating |
+| -------------------------------------------- | ---- | ------ |
+| [[./Groundhog Day\|Groundhog Day]] | 1993 | 7      |
 
