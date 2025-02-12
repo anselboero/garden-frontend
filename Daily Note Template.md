@@ -44,3 +44,6 @@ tags:
 - [[./Clipping Template|Clipping Template]]
 - [[./Book Template|Book Template]]
 - [[./Article Template|Article Template]]
+- [[./Groundhog Day|Groundhog Day]]
+- [[./OpenAI|OpenAI]]
+- [[./o1|o1]]
