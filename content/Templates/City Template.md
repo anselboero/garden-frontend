@@ -6,11 +6,11 @@ type:
 tags:
   - places
   - cities
-loc: 
-rating: 
+loc:
+rating:
 created:
-  "{ date }": 
-last: 
+  "{ date }":
+last:
 location:
   - "35.021041"
   - "135.7556075"
