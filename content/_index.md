@@ -10,12 +10,12 @@ The structure is very simple: Three folders, Inputs, Mental Models and Outputs.
 - The [[./Mental Models/index|Mental Models]] folder is contains the core part of this blog. Each page represents a model, with short description, examples, and references to other models. Read the subsequent section to better understand what is my understanding of mental models (my mental model about mental models).
 - In the [[./Outputs/index|Outputs]] folder, as you might imagine, I'll try to sketch my ideas about some topics, by making strong usage of the Mental Models above mentioned. It's mainly a personal thinking exercise, that can help improve my reasoning and understanding of the world. But since my view is very limited, due to the unknown unknowns and to the fact that I'm very myopic, feedbacks and discussions are highly appreciated. I hope I'll manage to open Github comments soon.
 
-![[./attachments/index__blog_structure.png|index__blog_structure]]
+![[./attachments/index__blog_structure.png|Attachments/images/index__blog_structure.png]]
 *Image 1.1: The structure of the blog (Yes, I will add more icons once I'll have figured out how to create them).*
 
 ## What are mental models?
 
-[[./References/People/Shane Parrish|Shane Parrish]], the author of the popular blog called [Farnam Street](https://fs.blog/), wrote a lot about them, including 4 books about the most relevant mental models.
+[[./references/people/Shane Parrish|Shane Parrish]], the author of the popular blog called [Farnam Street](https://fs.blog/), wrote a lot about them, including 4 books about the most relevant mental models.
 In the [Mental Models: The Best Way to make Intelligent Decisions](https://fs.blog/mental-models/) article, he defines them as a "simplified explanation of how something works". A concept can be distilled into its key information, the most actionable, timeless and recurrent pieces of knowledge that can help you with better understanding the reality. Like a map, they can assist you with finding the right direction towards where you are headed to.
 They are highly-interconnected to each other, and once you have created and mastered your mental graph made of these main models, your decision-making will be highly improved: because of this interconnections, you'll develop a multidisciplinary approach to thinking, and you'll be able to tackle a problem from different angles and subjects. I'll try to put the effectiveness of the Mental Models into practice by writing personal opinions about some matters in the Outputs page.
 
