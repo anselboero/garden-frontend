@@ -4,7 +4,7 @@ tags:
   - people
   - musicians
 created:
-  "{ date }": 
+  "{ date }":
 ---
 ## Albums
 

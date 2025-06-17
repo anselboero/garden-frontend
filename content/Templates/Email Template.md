@@ -2,11 +2,11 @@
 category:
   - "[[Emails|Emails]]"
 created:
-  "{ date }": 
+  "{ date }":
 tags:
   - emails
 org: []
 people: []
-url: 
-topics: 
+url:
+topics:
 ---

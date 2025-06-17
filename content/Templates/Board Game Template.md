@@ -2,11 +2,11 @@
 category:
   - "[[Board games|Board games]]"
 type: []
-maker: 
-year: 
-rating: 
+maker:
+year:
+rating:
 last:
-  "{ date }": 
+  "{ date }":
 tags:
   - board-games
   - references

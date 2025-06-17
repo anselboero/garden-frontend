@@ -5,9 +5,9 @@ tags:
   - places
 type: []
 loc: []
-rating: 
+rating:
 created:
-  "{ date }": 
+  "{ date }":
 last:
-  "{ date }": 
+  "{ date }":
 ---

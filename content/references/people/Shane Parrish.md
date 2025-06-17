@@ -12,7 +12,6 @@ tags:
 
 ## Articles
 
-
 | Title | Year | Rating |
 | ----- | ---- | ------ |
 

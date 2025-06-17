@@ -1,16 +1,16 @@
 ---
 category:
   - "[[Movies|Movies]]"
-cover: 
+cover:
 genre: []
-director: 
+director:
 cast: []
-rating: 
-year: 
+rating:
+year:
 last:
-  "{ date }": 
-imdbId: 
-via: 
+  "{ date }":
+imdbId:
+via:
 tags:
   - movies
   - references

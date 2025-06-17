@@ -4,15 +4,15 @@ category:
 tags:
   - places
 type: []
-address: 
-rating: 
+address:
+rating:
 created:
-  "{ date }": 
-url: 
-year: 
-price: 
-sqft: 
-lotsqft: 
+  "{ date }":
+url:
+year:
+price:
+sqft:
+lotsqft:
 loc: []
-status: 
+status:
 ---

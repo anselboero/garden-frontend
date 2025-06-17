@@ -2,7 +2,7 @@
 category:
   - "[[Podcasts|Podcasts]]"
 host: []
-rating: 
+rating:
 tags:
   - podcast
 ---
