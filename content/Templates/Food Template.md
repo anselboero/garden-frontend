@@ -4,11 +4,11 @@ category:
 tags:
   - food
   - references
-maker: 
-rating: 
-price: 
+maker:
+rating:
+price:
 last:
-  "{ date }": 
+  "{ date }":
 created:
-  "{ date }": 
+  "{ date }":
 ---
