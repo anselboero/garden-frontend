@@ -1,10 +1,10 @@
 ---
 date:
-  "{ date }": 
-trade: 
+  "{ date }":
+trade:
 tags:
   - investment
   - trade
-price: 
-shares: 
+price:
+shares:
 ---
