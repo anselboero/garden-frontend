@@ -3,10 +3,10 @@ category:
   - "[[People|People]]"
 tags:
   - people
-birthday: 
+birthday:
 org: []
 created:
-  "{ date }": 
+  "{ date }":
 ---
 ## Meetings
 
