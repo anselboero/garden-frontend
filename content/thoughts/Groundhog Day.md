@@ -14,8 +14,8 @@ cast:
 rating: 7
 year: 1993
 last: 2025-02-08
-imdbId: 
-via: 
+imdbId:
+via:
 tags:
   - movies
   - reviews
