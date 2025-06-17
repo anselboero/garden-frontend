@@ -4,7 +4,7 @@ category:
 tags:
   - articles
 author:
-  - "[[../references/people/Daniel Bernoulli|Daniel Bernoulli]]"
+  - "[[../References/people/Daniel Bernoulli|Daniel Bernoulli]]"
 url:
 created:
   "{ date }":
@@ -14,4 +14,4 @@ status:
   - "[[To-Do|To-Do]]"
 magazine:
 ---
-Author: [[../references/people/Daniel Bernoulli|Daniel Bernoulli]]
+Author: [[../References/people/Daniel Bernoulli|Daniel Bernoulli]]
