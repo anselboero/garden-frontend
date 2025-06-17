@@ -5,10 +5,10 @@ tags:
   - posts
 author:
   - "[[Me|Me]]"
-url: 
+url:
 created:
-  "{ date }": 
-published: 
+  "{ date }":
+published:
 topics: []
-status: 
+status:
 ---
