@@ -15,7 +15,7 @@ The structure is very simple: Three folders, Inputs, Mental Models and Outputs.
 
 ## What are mental models?
 
-[[./references/people/Shane Parrish|Shane Parrish]], the author of the popular blog called [Farnam Street](https://fs.blog/), wrote a lot about them, including 4 books about the most relevant mental models.
+[[./References/people/Shane Parrish|Shane Parrish]], the author of the popular blog called [Farnam Street](https://fs.blog/), wrote a lot about them, including 4 books about the most relevant mental models.
 In the [Mental Models: The Best Way to make Intelligent Decisions](https://fs.blog/mental-models/) article, he defines them as a "simplified explanation of how something works". A concept can be distilled into its key information, the most actionable, timeless and recurrent pieces of knowledge that can help you with better understanding the reality. Like a map, they can assist you with finding the right direction towards where you are headed to.
 They are highly-interconnected to each other, and once you have created and mastered your mental graph made of these main models, your decision-making will be highly improved: because of this interconnections, you'll develop a multidisciplinary approach to thinking, and you'll be able to tackle a problem from different angles and subjects. I'll try to put the effectiveness of the Mental Models into practice by writing personal opinions about some matters in the Outputs page.
 
