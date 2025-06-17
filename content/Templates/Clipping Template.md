@@ -3,11 +3,11 @@ category:
   - "[[Clippings|Clippings]]"
 tags:
   - clippings
-author: 
+author:
 url: ""
 created:
-  "{ date }": 
-published: 
-topics: 
+  "{ date }":
+published:
+topics:
 ---
 
