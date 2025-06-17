@@ -3,12 +3,12 @@ category:
   - "[[Places|Places]]"
 type:
   - "[[Restaurants|Restaurants]]"
-loc: 
-rating: 
+loc:
+rating:
 created:
-  "{ date }": 
+  "{ date }":
 last:
-  "{ date }": 
+  "{ date }":
 tags:
   - places
   - restaurants
