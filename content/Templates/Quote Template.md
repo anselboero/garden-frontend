@@ -1,10 +1,10 @@
 ---
 attribution: []
-source: 
+source:
 created:
-  "{ date }": 
+  "{ date }":
 tags:
   - quotes
 topics: []
-via: 
+via:
 ---
