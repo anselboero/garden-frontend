@@ -2,13 +2,13 @@
 category:
   - "[[Shows|Shows]]"
 genre: []
-year: 
+year:
 cast: []
-rating: 
+rating:
 created:
-  "{ date }": 
+  "{ date }":
 last:
-  "{ date }": 
+  "{ date }":
 tags:
   - shows
   - references
