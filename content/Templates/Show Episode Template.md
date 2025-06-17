@@ -1,11 +1,11 @@
 ---
 category:
   - "[[Show episodes|Show episodes]]"
-show: 
-season: 
-episode: 
-rating: 
-published: 
+show:
+season:
+episode:
+rating:
+published:
 tags:
   - shows
   - episodes
