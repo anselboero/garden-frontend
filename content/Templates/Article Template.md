@@ -3,13 +3,13 @@ category:
   - "[[Articles|Articles]]"
 tags:
   - articles
-author: 
-url: 
+author:
+url:
 created:
-  "{ date }": 
-published: 
-topics: 
+  "{ date }":
+published:
+topics:
 status:
   - "[[To-Do|To-Do]]"
-magazine: 
+magazine:
 ---
