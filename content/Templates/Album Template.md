@@ -7,9 +7,9 @@ tags:
   - references
 genre: []
 artist: ""
-year: 
+year:
 created:
-  "{ date }": 
-rating: 
+  "{ date }":
+rating:
 ---
 
