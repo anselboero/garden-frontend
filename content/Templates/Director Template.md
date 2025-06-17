@@ -5,7 +5,7 @@ tags:
   - people
   - directors
 created:
-  "{ date }": 
+  "{ date }":
 ---
 ## Movies
 
