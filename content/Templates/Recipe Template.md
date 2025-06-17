@@ -1,16 +1,16 @@
 ---
 category:
   - "[[Recipes|Recipes]]"
-cuisine: 
+cuisine:
 type: []
-ingredients: 
+ingredients:
 author: []
-url: 
-rating: 
+url:
+rating:
 created:
-  "{ date }": 
+  "{ date }":
 last:
-  "{ date }": 
+  "{ date }":
 tags:
   - recipes
 ---
