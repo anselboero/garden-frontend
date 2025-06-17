@@ -1,15 +1,15 @@
 ---
 category:
   - "[[Games|Games]]"
-maker: 
+maker:
 genre: []
-year: 
-system: 
-rating: 
+year:
+system:
+rating:
 created:
-  "{ date }": 
+  "{ date }":
 last:
-  "{ date }": 
+  "{ date }":
 tags:
   - games
   - references
