@@ -11,7 +11,7 @@ date: 2025-12-07
 - Experts hold more information than novices but what really makes the difference is how they organize their knowledge:
   **Information as a series of interrelated concepts, called `schema` , rather than isolated facts.**
   
-- When dealing with a new concepts, experts are able to easily determine what's most worthy of attention. This is a huge advantage because they don't expend unnecessary cognitive energy (as explained in the [[01 - Mind - Mental Model|mind]] model, the attention that the working memory can provide is limited, it's important to plan a careful allocation of attention)
+- When dealing with a new concepts, experts are able to easily determine what's most worthy of attention. This is a huge advantage because they don't expend unnecessary cognitive energy (as explained in the [[Mind - Mental Model|mind]] model, the attention that the working memory can provide is limited, it's important to plan a careful allocation of attention)
 
 > [!note] #myNotes
 > The definition of schema, and the benefits of reducing the cognitive costs when dealing with a problem is not different, in my opinion, from how mental models have been defined by [[Charlie Munger]] (Found it on [[Shane Parrish]]'s Mental Models, Volume I):

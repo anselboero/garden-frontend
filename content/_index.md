@@ -11,7 +11,7 @@ Here I'd like to improve my writing and thinking by talking about what I care th
 
 - In the [[Writing/index|Writing]] section you can find my main articles: I'll try to write about my main interest topics, such as data, learning, personal development, personal finance, and music, as well as reviews and summaries of books and movies. Each article comes with some tags, which can help you navigate through similar pages.
 - In the [[Flashcards/index|Flaschards]] section each page contains short details about a specific topic or core idea. I try to keep it minimal, such that the content can be assimilated in a few minutes. 
-  In order to take advantage of the [dual encoding theory](https://en.wikipedia.org/wiki/Dual-coding_theory), each flashcard consists of a visual representation of the idea plus some text enriching it.
+  In order to take advantage of the [dual-coding theory](https://en.wikipedia.org/wiki/Dual-coding_theory), each flashcard consists of a visual representation of the idea plus some text enriching it.
   If you like to expand your knowledge, at the end of the page there will be a paragraph called Credit and References, containing additional links.
   More details about flashcards theory and how they are used on this blog can be found on [[On flashcards|this]] article.
 
