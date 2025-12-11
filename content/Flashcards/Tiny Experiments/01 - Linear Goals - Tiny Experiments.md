@@ -3,6 +3,7 @@ tags:
   - flashcards
   - tinyExperiments
 date: 2025-10-12
+publish: true
 ---
 [[02 - Cognitive Scripts - Tiny Experiments|Next: Cognitive Scripts]]
 
@@ -13,7 +14,7 @@ date: 2025-10-12
 > [!Definition: Linear goal]
 > define a target state in the future and map out the steps to get there. Success as arriving at the target.
 
-## Linear goals stimulate Fear
+## Linear goals stimulate Fear 
 - where to begin?
 - not enough time or financial resources
 - What if we fail?
