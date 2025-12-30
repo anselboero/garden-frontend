@@ -1,0 +1,17 @@
+---
+{"publish":true,"created":"2025-12-30T17:23:44.133+01:00","modified":"2025-12-30T17:55:31.283+01:00","cssclasses":""}
+---
+
+# Latest 15 cards
+
+| Card                                                                                          | Source                                                                                    | Cover                                                                                                                          |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [[References/Books/Mental Models - Heal, Berlin/Show and Tell\|Show and Tell]]             | [[References/Books/Mental Models - Heal, Berlin/_index\|Mental Models - Heal, Berlin]] | ![[Attachments/Excalidrawings/03 - Show and Tell.png\|03 - Show and Tell.png]]                                                 |
+| [[References/Books/Mental Models - Heal, Berlin/Experts vs Novices\|Experts vs Novices]]   | [[References/Books/Mental Models - Heal, Berlin/_index\|Mental Models - Heal, Berlin]] | ![[Attachments/Excalidrawings/02 - Experts vs Novices.png\|02 - Experts vs Novices.png]]                                       |
+| [[References/Books/Mental Models - Heal, Berlin/Mind - Mental Model\|Mind - Mental Model]] | [[References/Books/Mental Models - Heal, Berlin/_index\|Mental Models - Heal, Berlin]] | ![[Attachments/Excalidrawings/01 - Mind - Mental Model.png\|01 - Mind - Mental Model.png]]                                     |
+| [[References/Books/The Psychology of Money/No one is Crazy\|No one is Crazy]]              | [[References/Books/The Psychology of Money/_index\|The Psychology of Money]]           | ![[Attachments/Excalidrawings/01-  No One is Crazy - Psychology of Money.png\|01-  No One is Crazy - Psychology of Money.png]] |
+| [[References/Books/Tiny Experiments/PACT\|PACT]]                                           | [[References/Books/Tiny Experiments/_index\|Tiny Experiments]]                         | ![[Attachments/Excalidrawings/PACT - Tiny Experiments.png\|PACT - Tiny Experiments.png]]                                       |
+| [[References/Books/Tiny Experiments/Field Notes\|Field Notes]]                             | [[References/Books/Tiny Experiments/_index\|Tiny Experiments]]                         | ![[Attachments/Excalidrawings/Field Notes - Tiny Experiments.png\|Field Notes - Tiny Experiments.png]]                         |
+| [[References/Books/Tiny Experiments/Cognitive Scripts\|Cognitive Scripts]]                 | [[References/Books/Tiny Experiments/_index\|Tiny Experiments]]                         | ![[Attachments/Excalidrawings/Cognitive Scripts - Tiny Experiments.png\|Cognitive Scripts - Tiny Experiments.png]]             |
+| [[References/Books/Tiny Experiments/Linear Goals\|Linear Goals]]                           | [[References/Books/Tiny Experiments/_index\|Tiny Experiments]]                         | ![[Attachments/Excalidrawings/Linear Goals - Tiny Experiments.png\|Linear Goals - Tiny Experiments.png]]                       |
+

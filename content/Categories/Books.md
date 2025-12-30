@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-12-30T15:41:10.195+01:00","modified":"2025-12-30T16:55:55.610+01:00","cssclasses":"cards cards-1-1 cards-align-bottom"}
+{"publish":true,"created":"2025-12-30T15:41:10.195+01:00","modified":"2025-12-30T17:14:11.857+01:00","cssclasses":""}
 ---
 
 | Cover                                                                                                        | Book                                                                                       | Author                                                                                                                          |
