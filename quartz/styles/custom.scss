@@ -10,82 +10,101 @@
     padding: 15px;
 }
 
-/* --- Quartz Cards Layout - Obsidian Style --- */
+/* --- Quartz Cards Layout: Obsidian Minimal Style --- */
 
 .cards {
   table {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.2rem;
+    display: block; // Necessary to override default table layout
     border: none;
     background: transparent;
 
-    thead { display: none; }
+    thead { 
+      display: none; // Hides the table headers (Cover, Book, Author)
+    }
 
     tbody {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      /* Responsive grid: min 160px width per card, filling available space */
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
       gap: 1.2rem;
-      width: 100%;
       border: none;
 
       tr {
         display: flex;
         flex-direction: column;
-        background-color: var(--lightgray); 
+        height: 100%;
+        background-color: var(--lightgray); // Quartz card background
         border: 1px solid var(--gray);
         border-radius: 8px;
-        padding: 0; 
-        /* Narrower cards: about 5 per row on large screens */
-        width: calc(20% - 1.2rem); 
-        min-width: 160px; /* Essential for the narrow look */
-        transition: transform 0.2s ease;
         overflow: hidden;
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 
         &:hover {
           transform: translateY(-4px);
           border-color: var(--secondary);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
         td {
-          border: none;
-          padding: 0 0.8rem; /* Tighter padding for text */
           display: block;
+          border: none;
+          padding: 0 0.75rem; // Horizontal padding for text
 
-          /* Column 1: FULL COVER Image */
+          /* Column 1: FULL COVER IMAGE */
           &:first-child {
-            padding: 0; 
+            padding: 0; // Image touches the edges
             margin-bottom: 0.5rem;
             
             img {
               display: block;
               width: 100%;
-              /* Fixed height and object-fit cover to keep them uniform */
-              height: 240px; 
-              object-fit: cover; 
+              height: 240px; // Fixed height for alignment
+              object-fit: cover; // Fills the area without distortion
               border-radius: 0;
             }
           }
 
-          /* Column 2: Book Title */
+          /* Column 2: TITLE AREA */
           &:nth-child(2) {
+            flex-grow: 1; // Pushes the author section to the bottom
+            font-size: 0.85rem;
             font-weight: 600;
-            font-size: 0.9rem; /* Smaller font for narrow cards */
-            line-height: 1.2;
-            padding-bottom: 0.3rem;
-            /* Clamp text to 2 lines to keep cards uniform */
+            line-height: 1.3;
+            padding-bottom: 0.5rem;
+            
+            /* Limits title to 2 lines with ellipsis (...) */
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
+
+            a {
+              color: var(--dark);
+              text-decoration: none;
+              &:hover { text-decoration: underline; }
+            }
           }
 
-          /* Column 3: Author */
+          /* Column 3: SEPARATOR & AUTHOR */
           &:nth-child(3) {
-            padding-bottom: 1rem;
+            border-top: 1px solid var(--gray); // The requested "---" separator
+            padding-top: 0.6rem;
+            padding-bottom: 0.8rem;
             font-size: 0.75rem;
-            opacity: 0.7;
-            ul { list-style: none; padding: 0; margin: 0; }
+            color: var(--gray);
+
+            /* Clean up list styling (no bullets, no indentation) */
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+            
+            li {
+              margin: 0;
+              padding: 0;
+              &::marker { content: none; } // Force removal of bullet points
+            }
           }
         }
       }
@@ -93,11 +112,10 @@
   }
 }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .cards tbody tr { width: calc(33.33% - 1.2rem); }
-}
-
+/* Mobile adjustments to prevent cards from being too thin */
 @media (max-width: 480px) {
-  .cards tbody tr { width: calc(50% - 1.2rem); min-width: 140px; }
+  .cards tbody {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.8rem;
+  }
 }
