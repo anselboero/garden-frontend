@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-19","modified":"2025-12-30T17:32:04.240+01:00","tags":["flashcards","tinyExperiments"],"cssclasses":"","socialImage":"[[PACT - Tiny Experiments.png]]"}
+{"publish":true,"created":"2025-10-19","modified":"2025-12-30T18:53:03.312+01:00","tags":["flashcards","tinyExperiments"],"cssclasses":"","socialImage":"[[PACT - Tiny Experiments.png]]"}
 ---
 
 [[References/Books/Tiny Experiments/Field Notes\|Previous: Field Notes]]
@@ -23,9 +23,10 @@ The main characteristics:
 - **Purposeful**: you should find joy while doing it.
 - **Actionable**: you should be able to start now
 - **Output instead of Outcome**: You are focusing on what you are delivering instead of what the end result should look like: instead of saying I will run a marathon in 6 months (Typical of [[References/Books/Tiny Experiments/Linear Goals\|Linear Goals]]), you can say, "I will run every second day". Instead of saying "I will write" a book, just try by writing every day 250 words.
-- **Doing Over Planning**: This is a commitment to Action. [[References/People/William James]]'s quote:
-  > Action seems to follow feeling, but really action and feeling go together; and by regulating the action, which is under the more direct control of the will, we can indirectly regulate the feeling, which is not.
+- **Doing Over Planning**: This is a commitment to Action:
 
+- "*Action seems to follow feeling, but really action and feeling go together; and by regulating the action, which is under the more direct control of the will, we can indirectly regulate the feeling, which is not."*  #quotes 
+	- author:: [[References/People/William James]]
 
 #  #myNotes
 
