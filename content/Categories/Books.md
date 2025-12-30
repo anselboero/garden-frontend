@@ -1,0 +1,9 @@
+---
+{"publish":true,"created":"2025-12-30T15:41:10.195+01:00","modified":"2025-12-30T16:05:59.769+01:00","cssclasses":"cards cards-1-1 cards-align-bottom"}
+---
+
+| Cover                                                                                                        | Book                                                                            | Author                                                                               |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| ![\|150](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1731624046i/214268997.jpg) | [[References/Books/Tiny Experiments/_index\|Tiny Experiments]]               | <ul><li>[[References/People/Anne-Laure Le Cunff.md\\|Anne-Laure Le Cunff]]</li></ul> |
+| ![\|150](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg)  | [[References/Books/The Psychology of Money/_index\|The Psychology of Money]] | <ul><li>[[References/People/Morgan Housel.md\\|Morgan Housel]]</li></ul>             |
+

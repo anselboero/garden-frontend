@@ -1,6 +1,7 @@
 ---
-date: 2025-10-12
+{"publish":true,"created":"2025-10-12","modified":"2025-12-30T16:06:54.650+01:00","cssclasses":""}
 ---
+
 
 I've always had mixed feelings about flashcards.
 

@@ -1,34 +1,19 @@
 ---
-category: "[[People]]"
-tags:
-  - people
-  - authors
+{"publish":true,"created":"2025-12-10T19:14:26.841+01:00","modified":"2025-12-30T16:06:35.434+01:00","tags":["people","authors"],"cssclasses":""}
 ---
+
 Author of Tiny experiments book and https://nesslabs.com/ blog.
 ## Books
 
 
-```dataview
-table without id
-	file.link as Title,
-	year as Year,
-	rating as Rating
-where
-	contains(category,[[Books]])
-	and contains(author,this.file.link)
-sort rating desc
-```
+| Title                                                   | Year | Rating |
+| ------------------------------------------------------- | ---- | ------ |
+| [[References/Books/Tiny Experiments/_index\|_index]] | \-   | \-     |
+
 
 ## Articles
 
 
-```dataview
-table without id
-	file.link as Title,
-	published.year as Year,
-	rating as Rating
-where
-	contains(category,[[Articles]])
-	and contains(author,this.file.link)
-sort rating desc
-```
+| Title | Year | Rating |
+| ----- | ---- | ------ |
+

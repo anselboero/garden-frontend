@@ -1,9 +1,7 @@
 ---
-category: "[[People]]"
-tags:
-  - people
-  - authors
+{"publish":true,"created":"2025-12-10T19:14:26.842+01:00","modified":"2025-12-30T16:06:49.729+01:00","tags":["people","authors"],"cssclasses":""}
 ---
+
 1842 - 1910.
 
 [Wikipedia page](https://en.wikipedia.org/wiki/William_James).
@@ -11,27 +9,13 @@ tags:
 American philosopher and psychologist.
 ## Books
 
-```dataview
-table without id
-	file.link as Title,
-	year as Year,
-	rating as Rating
-where
-	contains(category,[[Books]])
-	and contains(author,this.file.link)
-sort rating desc
-```
+| Title | Year | Rating |
+| ----- | ---- | ------ |
+
 
 ## Articles
 
 
-```dataview
-table without id
-	file.link as Title,
-	published.year as Year,
-	rating as Rating
-where
-	contains(category,[[Articles]])
-	and contains(author,this.file.link)
-sort rating desc
-```
+| Title | Year | Rating |
+| ----- | ---- | ------ |
+
