@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Quotes","created":"2025-12-30T20:34:50.702+01:00","modified":"2025-12-30T20:35:25.212+01:00","cssclasses":""}
+{"publish":true,"title":"Quotes","created":"2025-12-30T20:34:50.702+01:00","modified":"2025-12-31T08:43:38.884+01:00","cssclasses":""}
 ---
 
 | Quote                                                                                                                                                                                                              | Author                                                                   | Via                                                 | Link                                                                                                     |
