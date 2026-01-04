@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-03","modified":"2026-01-04T09:26:50.387+01:00","tags":["flashcards"],"cssclasses":"","socialImage":"[[Account Types.png]]"}
+{"publish":true,"created":"2026-01-03","modified":"2026-01-04T09:59:58.959+01:00","tags":["flashcards"],"cssclasses":"","socialImage":"[[Account Types.png]]"}
 ---
 
 # Summary
@@ -52,12 +52,12 @@ We can then infer some data:
 - Total Income in Jan-2026: by summing up all the entries associated with Income Accounts and recorded in January (Salary only), we can get the total amount: 1k€
 
 # Short Note
-I agree that many definitions are missing (what is Double-Entry account, what are an Account and a transaction?) I will probably cover these principles in a new Card.
+I agree that many definitions are missing (what is Double-Entry account, what are an Account and a transaction?) I will probably cover these principles in new [[Categories/Flashcards]].
 
 
 # Credits and References
 - [The double-entry Counting Method](https://beancount.github.io/docs/the_double_entry_counting_method.html#types-of-accounts), Beancount documentation
-# Licenses and Attributions
+## Licenses and Attributions
 - Airplane, Bank, Netflix, Piggy bank, Restaurant, Car, Klarna icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com/)
 - Mortgage icon made by [iconixar](https://www.flaticon.com/authors/iconixar) from [flaticon.com](https://www.flaticon.com/)
 - Salary icon made by [nawicon](https://www.flaticon.com/authors/nawicon) from [flaticon.com](https://www.flaticon.com/) from [flaticon.com](https://www.flaticon.com/)
