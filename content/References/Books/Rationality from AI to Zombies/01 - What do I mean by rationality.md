@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-02-22","modified":"2026-02-22T14:20:29.182+01:00","tags":["flashcards"],"cssclasses":"","socialImage":"[[1 - What Do I Mean By Rationality - rationality from ai to zombies.png]]"}
+{"publish":true,"created":"2026-02-22","modified":"2026-02-22T14:34:40.990+01:00","tags":["flashcards"],"cssclasses":"","socialImage":"[[1 - What Do I Mean By Rationality - rationality from ai to zombies.png]]"}
 ---
 
 # Summary
@@ -37,3 +37,11 @@ The problem is that these instruments are not sufficient in practice, for some r
 - Rationality is not only about reasoning in words: sometimes it's just about intuitions, it can involve all the senses, and emotions play an important role. For instance, a nice question where we don't want to involve the math at all is "How do you feel once you have reached the truth"?
 
 Because of their limitations, he refuses a precise definition of the word rationality, what he's interested the most is about following a *Bayesian-style belief-updating* approach: I read it as "know the tools, the math, and use them to your advantage in order to get closer to accuracy, but also don't be too much strict with these rules, always keep a critical eye towards your beliefs and your instruments, updating them frequently whenever you reach a point where you see that your ideas no longer apply against reality".
+
+# Credits, references and further reading
+-  [[References/People/Eliezer Yudkowsky]] Rationality: From AI to Zombies, 2015 (9781939311153)
+- map icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [flaticon.com](https://www.flaticon.com/)
+- Brazil icon made by [mangsaabguru](https://www.flaticon.com/authors/mangsaabguru) from [flaticon.com](https://www.flaticon.com/)
+- Trophy icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com/)
+- Origami icon made by [Nhor Phai](https://www.flaticon.com/authors/nhor-phai) from [flaticon.com](https://www.flaticon.com/)
+- Decision icon made by [iconixar](https://www.flaticon.com/authors/iconixar) from [flaticon.com](https://www.flaticon.com/)
