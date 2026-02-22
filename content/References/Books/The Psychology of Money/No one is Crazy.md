@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-11-25","modified":"2025-12-30T17:43:47.149+01:00","tags":["flashcards","psychologyOfMoney"],"cssclasses":"","socialImage":"[[01-  No One is Crazy - Psychology of Money.png]]"}
+{"publish":true,"created":"2025-11-25","modified":"2026-02-22T14:20:20.014+01:00","tags":["flashcards","psychologyOfMoney"],"cssclasses":"","socialImage":"[[01-  No One is Crazy - Psychology of Money.png]]"}
 ---
 
 # Summary
